@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <p>you need to enter a number between 1 and 100 and your enter number compare with random created number and tell the 
+        result 
+    </p>
+    <p>If number matched print success and if number low or high from random number also mention and you have 10 turns after this 
+        game will be end . To play again click on new game
+    </p>
+    <Label class="label-text">Enter a guess</Label>
+    <input type="number" min="1" max="100" required class="input-number">
+    <button class="guessnumber">Guess Number</button>
+    <p class="track-guess"></p>
+    <button class="restart">New Game</button>
+    <p class="loworhigh"></p>
+    <p class="num-of-option"></p>
+    <p class="gameover"></p>
+
+    <p class="success"></p>
+    <script src="script.js"></script>
+</body>
+</html>
